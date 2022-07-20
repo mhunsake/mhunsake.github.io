@@ -1,0 +1,133 @@
+@font-face {
+	font-family: "Boston-Traffic";
+	src: url("../fonts/boston_traffic.ttf") format("truetype");
+}
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html{
+background: #6FCEB4; 
+}
+body{
+  background: white;
+  width: 80%;
+  margin: 0 auto;
+}
+header {
+  background: #1e5799;
+  background: -moz-linear-gradient(top,  #1e5799 0%, #5c9fd6 50%, #207cca 56%, #6fce84 100%);
+  background: -webkit-linear-gradient(top,  #1e5799 0%,#5c9fd6 50%,#207cca 56%,#6fce84 100%);
+  background: linear-gradient(to bottom,  #1e5799 0%,#5c9fd6 50%,#207cca 56%,#6fce84 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#6fce84',GradientType=0 );
+  border-bottom: 2px solid white;
+  margin-top: 0;
+  overflow: hidden;
+}
+header h1 {
+  color: white;
+  font-family: Boston-Traffic, impact, arial bold, sans-serif;
+  font-size: 4em;
+  padding-left: 10%;
+  padding-top: .5em;
+  margin-top: 0;
+  transform: rotate(-4deg);
+  padding-bottom: .8em;
+  overflow: hidden;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+nav ul li {
+  font-family: Boston-Traffic, impact, arial bold, sans-serif;
+  font-size: 1.5em;
+  display: inline;
+  border-left: 2px solid white;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 1em;
+  padding-right: .8em;
+}
+section {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
+section p {
+  font-family: Helvetica, arial bold, sans-serif;
+  font-size 1.2em;
+  padding-bottom: .5em;
+}
+h2 {
+  font-family: Helvetica, arial bold, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+h1.splashtext {
+  font-family: Boston-Traffic, impact, arial bold, sans-serif;
+  font-size: 12vw;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #6FCEB4, 0 0 30px #6FCEB4, 0 0 40px #6FCEB4, 0 0 55px #6FCEB4, 0 0 75px #6FCEB4;
+  text-align: center;
+  padding-bottom: 0;
+  margin: 0 auto;
+}
+h2.splashtext {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 3vw;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+h3.splashtext {
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 3vw;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+footer {
+  font-family: Helvetica, sans-serif;
+  padding-left: 5%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #9b9b9b;
+  background: -moz-linear-gradient(-45deg,  #9b9b9b 0%, #d6d6d6 50%, #ededed 51%, #b7b7b7 100%);
+  background: -webkit-linear-gradient(-45deg,  #9b9b9b 0%,#d6d6d6 50%,#ededed 51%,#b7b7b7 100%);
+  background: linear-gradient(135deg,  #9b9b9b 0%,#d6d6d6 50%,#ededed 51%,#b7b7b7 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b9b9b', endColorstr='#b7b7b7',GradientType=1 );
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media only screen and (max-width: 580px) {
+  body {
+   width:100%
+  }
+}
