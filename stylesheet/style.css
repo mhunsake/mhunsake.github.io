@@ -78,6 +78,32 @@ section p {
   font-size 1.2em;
   padding-bottom: .5em;
 }
+section h1 {
+  font-family: Boston-Traffic, impact, arial bold, sans-serif;
+  font-size: 3em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+span.not {
+  color: white;
+  display: inline-block;
+  transform: rotate(4deg);
+  background: red;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+span.yes {
+  color: white;
+  display: inline-block;
+  transform: rotate(-4deg);
+  background: green;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+span.font2 {
+  font-family: helvetica, arial, sans-serif;
+  font-weight: bold;
+}
 h2 {
   font-family: Helvetica, arial bold, sans-serif;
   font-weight: bold;
@@ -129,5 +155,13 @@ footer {
 @media only screen and (max-width: 580px) {
   body {
    width:100%
+  }
+}
+@media only screen and (max-width: 475px) {
+  nav ul li {
+    font-size: 5vw;
+  }
+  header h1 {
+    font-size: 14vw;
   }
 }
