@@ -81,7 +81,7 @@ section p {
 section h1 {
   font-family: Boston-Traffic, impact, arial bold, sans-serif;
   font-size: 3em;
-  padding-top: .5em;
+  padding-top: .75px;
   padding-bottom: .5em;
 }
 span.not {
@@ -136,12 +136,16 @@ h3.splashtext {
   margin: 0 auto;
   padding-bottom: 20px;
 }
+aside {
+  float: right;
+}
 footer {
   font-family: Helvetica, sans-serif;
   padding-left: 5%;
   padding-top: 15px;
   padding-bottom: 15px;
   background: #9b9b9b;
+  clear: both;
   background: -moz-linear-gradient(-45deg,  #9b9b9b 0%, #d6d6d6 50%, #ededed 51%, #b7b7b7 100%);
   background: -webkit-linear-gradient(-45deg,  #9b9b9b 0%,#d6d6d6 50%,#ededed 51%,#b7b7b7 100%);
   background: linear-gradient(135deg,  #9b9b9b 0%,#d6d6d6 50%,#ededed 51%,#b7b7b7 100%);
