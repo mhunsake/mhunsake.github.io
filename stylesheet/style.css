@@ -116,7 +116,7 @@ h1.splashtext {
   font-size: 12vw;
   text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #6FCEB4, 0 0 30px #6FCEB4, 0 0 40px #6FCEB4, 0 0 55px #6FCEB4, 0 0 75px #6FCEB4;
   text-align: center;
-  padding-bottom: 0;
+  padding: 0;
   margin: 0 auto;
 }
 h2.splashtext {
