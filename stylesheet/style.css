@@ -138,6 +138,19 @@ h3.splashtext {
 }
 aside {
   float: right;
+  margin-left: 3%;
+  overflow: hidden;
+}
+.center {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+iframe {
+  margin: 0 auto;
+  margin-bottom: .5em;
+.tweetembed {
+  width: 30%;
 }
 footer {
   font-family: Helvetica, sans-serif;
@@ -160,6 +173,12 @@ footer {
   body {
    width:100%
   }
+  aside {
+  float: none;
+  overflow: auto;
+  }
+  .tweetembed {
+  width: 100%;
 }
 @media only screen and (max-width: 475px) {
   nav ul li {
