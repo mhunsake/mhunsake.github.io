@@ -211,12 +211,11 @@ footer {
   }
   .contact {
   float: none;
-  text-align: left;
   margin-right: 0;
   width: 100%;
   margin-bottom: 1em;
   }
-  .copywrite {
+  .copyright {
   width: 100%;
   float: none;
   }
