@@ -209,6 +209,17 @@ footer {
   .tweetembed {
   width: 100%;
   }
+  .contact {
+  float: none;
+  text-align: left;
+  margin-right: 0;
+  width: 100%;
+  margin-bottom: 1em;
+  }
+  .copywrite {
+  width: 100%;
+  float: none;
+  }
 }
 @media only screen and (max-width: 475px) {
   nav ul li {
