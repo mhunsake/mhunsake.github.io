@@ -165,6 +165,34 @@ footer {
   background: linear-gradient(135deg,  #9b9b9b 0%,#d6d6d6 50%,#ededed 51%,#b7b7b7 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9b9b9b', endColorstr='#b7b7b7',GradientType=1 );
 }
+.copyright {
+  float: left;
+  width: 40%;
+}
+.contact {
+  width: 49%;
+  float: right;
+  margin-right: 5%;
+  text-align: right;
+}
+.contact h1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: .2em;
+}
+.contact ul {
+  list-style-type: none;
+}
+.contact ul li a img {
+  display: inline-block;
+  margin-bottom: -2px;
+  margin-left: 5px;
+}
+.contact ul li a {
+  color: black;
+  text-decoration: none;
+}
 .clearfix::after {
   content: "";
   clear: both;
@@ -180,6 +208,7 @@ footer {
   }
   .tweetembed {
   width: 100%;
+  }
 }
 @media only screen and (max-width: 475px) {
   nav ul li {
